@@ -32,7 +32,18 @@ console.log(`Quantidade em estoque: ${quantEstoque}`)
 alert('Visualize o console para verificar nível do estoque!');
 if (quantEstoque < 5) {
     statusEstoque = "baixo"
-} else{
+} else {
     statusEstoque = "normal"
 }
 console.log(`Estoque ${statusEstoque}`);
+
+// 7- Classificação da safra
+alert("Visualize o console para verificar a maturação!");
+if (safraVinho < 2015) {
+    maturacao = "Vinho antigo";
+} else if (safraVinho <= 2019) {
+    maturacao = "Vinho amadurecido";
+} else {
+    maturacao = "Vinho jovem";
+}
+console.log(maturacao)
