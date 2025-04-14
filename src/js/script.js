@@ -28,3 +28,11 @@ console.log(`Tipo do vinho: ${tipoVinho}`)
 console.log(`Ano da safra: ${safraVinho}`)
 console.log(`Quantidade em estoque: ${quantEstoque}`)
 
+// 6- Verificação de estoque
+alert('Visualize o console para verificar nível do estoque!');
+if (quantEstoque < 5) {
+    statusEstoque = "baixo"
+} else{
+    statusEstoque = "normal"
+}
+console.log(`Estoque ${statusEstoque}`);
