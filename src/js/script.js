@@ -47,3 +47,14 @@ if (safraVinho < 2015) {
     maturacao = "Vinho jovem";
 }
 console.log(maturacao)
+
+// 8- Ficha técnica do vinho cadastrado
+alert("A seguir, veja a ficha técnica do vinho no console.")
+console.log("===========================================")
+console.log("==== Ficha Técnica do Vinho Cadastrado ====")
+console.log(`Nome do vinho: ${nomeVinho}`)
+console.log(`Tipo do vinho: ${tipoVinho}`)
+console.log(`Ano da safra: ${safraVinho}`)
+console.log(`Quantidade em estoque: ${quantEstoque}`)
+console.log(`Status do estoque: ${statusEstoque}`)
+console.log(`Estágio de maturação: ${maturacao}`)
